@@ -3,7 +3,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
    
-    <div> Hello Next JS</div>
+    <h1>Welcome to Home Page</h1>
    
   )
 }
