@@ -1,9 +1,11 @@
-import styles from './page.module.css'
+"use client"
+import Herosection from "@/app//Components/Herosection"
 
 export default function Home() {
   return (
-   
-    <h1>Welcome to Home Page</h1>
+    <>
+      <Herosection  title={"Home Page"} image={"/next.svg"}/>
+    </>
    
   )
 }

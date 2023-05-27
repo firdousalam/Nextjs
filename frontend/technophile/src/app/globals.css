@@ -76,11 +76,11 @@ ol, li {
 
 /* CSS */
 button {
-    background-color: #161617;
+    background-color: #8686f4;
     border-radius: 2.4rem;
     border-style: none;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #eadcdc;
     cursor: pointer;
     flex-shrink: 0;
     font-size: 1.6rem;
@@ -107,4 +107,7 @@ button:hover {
     button {
         padding: 0 2.6rem;
     }
+}
+.imgRound {
+    border-radius: 50%;
 }

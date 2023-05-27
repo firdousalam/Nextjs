@@ -18,9 +18,9 @@ export class Header extends Component {
             <Image
               src="/main.jpeg"
               alt="Vercel Logo"
-              className="dark:invert"
-              width={70}
-              height={40}
+              className="imgRound"
+              width={150}
+              height={100}
               priority
             />
 
