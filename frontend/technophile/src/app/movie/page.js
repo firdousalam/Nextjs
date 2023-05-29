@@ -1,8 +1,10 @@
 // this think you need to add
 "use client"
-import Link from 'next/link'
 import React, { Component } from 'react'
+import MovieCard from '../Components/MovieCard';
+import styles from "@/app/style/common.module.css"
 const Movie = async ()=> {
+/*  
   console.log(process.env.URL);
   await new Promise(resolve => setTimeout(resolve, 2000));
 
@@ -19,12 +21,46 @@ const Movie = async ()=> {
 
   const res = await fetch(url, options);
   const data = await res.json();
-  const main_data = data.titles;
-  console.log(main_data)
+
+  let main_data =[];
+  if(typeof  data.titles !='undefined'){
+    main_data = data.titles;
+  }
+*/
+let main_data = [{
+  id : 1,
+  "title" : "this is my title 1"
+},
+{
+  id : 2,
+  "title" : "this is my title 1"
+},
+{
+  id : 3,
+  "title" : "this is my title 1"
+},
+{
+  "id" : 4,
+  "title" : "this is my title 1"
+},
+{
+  id : 5,
+  "title" : "this is my title 1"
+}]
     return (
       <>
-        <h1>Welcome to Movie Page</h1>
-        <Link href="/movie/id">Click Here</Link>
+      <section className={styles.movieSection}>
+        <div className={styles.container}>
+            <h1>Series & Movie</h1>
+            
+             {
+              main_data.map((currData)=>{
+               // console.log(currData);
+                return <MovieCard key={currData.id} data={...currData}></MovieCard>
+              })
+            }
+          </div>
+        </section>
       </>
     )
   }
