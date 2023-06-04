@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Styles from "./styles.module.css"
 export default function AboutLayout({
     children,
   }: {
@@ -8,7 +8,7 @@ export default function AboutLayout({
     return (
     <>
         <nav>My about layout</nav>
-        <main>
+        <main className={Styles.main}>
            {children}
         </main>
     </>
