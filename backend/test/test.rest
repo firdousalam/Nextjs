@@ -1,0 +1,9 @@
+GET http://localhost:5000/getUser
+
+###
+GET http://localhost:5000/warning
+###
+GET http://localhost:5000/error
+
+###
+GET http://localhost:5000/throughError

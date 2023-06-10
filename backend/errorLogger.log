@@ -1,0 +1,88 @@
+{
+  meta: {
+    req: {
+      url: '/throughError',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/throughError',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 26
+  },
+  level: 'error',
+  message: 'HTTP GET /throughError',
+  timestamp: '2023-06-10T18:13:19.808Z'
+}
+{
+  meta: {
+    req: {
+      url: '/throughError',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/throughError',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 30
+  },
+  level: 'error',
+  message: 'HTTP GET /throughError',
+  timestamp: '2023-06-10T18:14:23.513Z'
+}
+{
+  meta: {
+    req: {
+      url: '/throughError',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/throughError',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 29
+  },
+  level: 'error',
+  message: 'HTTP GET /throughError',
+  timestamp: '2023-06-10T18:34:16.979Z'
+}
+{
+  meta: {
+    req: {
+      url: '/throughError',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/throughError',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 26
+  },
+  level: 'error',
+  message: 'HTTP GET /throughError',
+  timestamp: '2023-06-10T18:36:41.449Z'
+}

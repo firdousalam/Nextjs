@@ -1,0 +1,37 @@
+{
+  message: 'getUser started953.626548896653',
+  level: 'info',
+  timestamp: '2023-06-10T18:47:08.180Z'
+}
+{
+  message: "getUser value don't match953.626548896653",
+  level: 'warn',
+  timestamp: '2023-06-10T18:47:08.194Z'
+}
+{
+  message: 'response sent953.626548896653',
+  level: 'info',
+  timestamp: '2023-06-10T18:47:08.200Z'
+}
+{
+  meta: {
+    req: {
+      url: '/getUser',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5000',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/getUser',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 43
+  },
+  level: 'info',
+  message: 'HTTP GET /getUser',
+  timestamp: '2023-06-10T18:47:08.236Z'
+}
