@@ -1,11 +1,11 @@
 "use client"// this think you need to add
 import React, { Component } from 'react'
-
+import Herosection from "@/app//Components/Herosection"
 export class page extends Component {
   render() {
     return (
       <>
-        <div>Hello World</div>
+        <Herosection title={"About Us"} image={"/vercel.svg"}/>
       </>
     )
   }
